@@ -1,0 +1,13 @@
+describe('Login launch', () => {
+    it('launch app', () => {
+        cy.visit('https://parabank.parasoft.com/parabank/index.htm')
+        cy.get("input[name='username']").type('Kei')
+        cy.get("input[name='password']").type('kei123')
+        cy.get(':nth-child(5) > .button').click()
+        cy.get('#accountTable > tbody > tr:nth-child(1) > td:nth-child(1) > a').click()
+        cy.get('#month').select(1)
+        cy.get('#month').select('July')
+
+
+    })
+})

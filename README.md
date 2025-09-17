@@ -1,4 +1,4 @@
-<h1 align=""> 🔐 Cypress Login Automation Project </h1>
+<h1 align=""> 🔐 Cypress Automation Project </h1>
 <p>This project contains automated tests for the login functionality of the practice website https://parabank.parasoft.com/, using Cypress.io.</p>
 
 
